@@ -1,0 +1,31 @@
+Selections and commentary from Aaron:
+
+> "What researchers need is some unified theory of golem engineering,
+> a set of principles for designing, building, and refining
+> special-purpose statistical procedures. Every major branch of
+> statistical philosophy possesses such a unified theory. But the
+> theory is never taught in introductory—and often not even in
+> advanced—courses. So there are benefits in rethinking statistical
+> inference as a set of strategies, instead of a set of pre-made
+> tools." (page 4)
+
+
+---
+
+I think there's a little bit of linguistic confusion between
+scientific hypotheses ("I think the world works like...") and
+statistical hypotheses (also called "Statistical models" in Figure
+1.2).
+
+
+---
+
+> "... deductive falsification never works." (page 4)
+
+I think this is too strong.
+
+
+---
+
+> "_modus tollens_, which is Latin shorthand for “the method of
+> destruction.”" (page 7)
