@@ -1,0 +1,90 @@
+Selections and commentary from Aaron:
+
+---
+
+Neat counting example in 2.1! I tried to write up
+[a similar example][] (inspired by [Gelman][]) some years ago...
+
+[a similar example]: https://planspace.org/2013/11/11/whats-the-difference-between-bayesian-and-non-bayesian-statistics/
+[Gelman]: http://www.stat.columbia.edu/~gelman/book/
+
+
+---
+
+In note 41, from page 24, McElreath advocates [Cox][]-style probability.
+
+[Cox]: https://en.wikipedia.org/wiki/Cox%27s_theorem
+
+
+---
+
+I also wrote up (still years ago) a [cute example][] trying to explain
+Bayes' rule, but I think it's pretty crummy relative to his
+development through sections 2.1.2 and 2.1.3.
+
+[cute example]: https://planspace.org/2014/02/23/bayes-rule-for-ducks/
+
+
+---
+
+I kind of miss seeing "evidence" in Bayes' rule... Maybe I like this,
+with "explanation" for the other term?
+
+```
+P(explanation|evidence) = P(evidence|explanation) * P(explanation)
+                          ----------------------------------------
+                                        P(evidence)
+```
+
+(The P's everywhere would kind of obfuscate the nice counting
+development he was using, but still...)
+
+Then, note that `P(evidence|explanation)` is the "likelihood" of the
+evidence, and that we're going to talk about that a lot.
+
+
+---
+
+Ah, here on page 37 is his version:
+
+```
+Posterior = Probability of the data * Prior
+            -------------------------------
+            Average probability of the data
+```
+
+Also nice! He reminds me that I'm using "evidence" (above) in a
+different way from using it to mean the denominator there...
+
+
+---
+
+On page 39, he doesn't include Hamiltonian Monte Carlo as one of the
+"engines"... Is it a type of MCMC? Ah, [yes][].
+
+[yes]: https://en.wikipedia.org/wiki/Hamiltonian_Monte_Carlo
+
+
+---
+
+Oh no! Very ugly page break from 42 to 43, with the header of a table
+separated from its contents...
+
+
+---
+
+Interesting; really not explaining what's going on with `dbeta`,
+conjugate priors, etc... Probably fine?
+
+
+---
+
+Wow! I do not understand how this Metropolis algorithm on page 45
+works! I guess I can wait until Chapter 9.
+
+
+---
+
+Ooh fun, some people have problem solutions online... Here's one:
+
+ * https://github.com/cavaunpeu/statistical-rethinking
